@@ -10,6 +10,7 @@
     <title>Müzik Dükkanım | Ürünler</title>
   </head>
   <body style="background-color: #E9ECEF;">
+
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand text-danger" href="index.html">Müzik dükkanım</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,10 +19,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="index.html">Ana Sayfa <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white" href="index.html">Ana Sayfa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="products.html">Ürünlerimiz</a>
+              <a class="nav-link text-white" href="products.html">Ürünlerimiz<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link text-white" href="about-us.html">Hakkımızda</a>
@@ -30,10 +31,12 @@
         </div>
       </nav>
 
-      <!-- container yapısı tüm içeriği barındırıyor -->
+      <!-- container yapısı products.html için tüm içeriği barındırıyor -->
       <div class="container mt-5">
+        <h2 class=" text-center mb-3" style="color: blueviolet;">Ürünlerimiz</h2>
+        <!-- row içerisinde 12'lik gridimi üçe bölerek(col-sm-4) card yapısı ile beraber ürünlerimi sergileyecek yapıları ekledim. -->
 
-        <div class="row mb-3">
+        <div class="row mb-3"><!-- ilk üç ürünümü içeren row -->
             <div class="col-sm-4">
                 <div class="card" style="width: 22rem; height: 100%;">
                     <img src="https://www.zuhalmuzik.com/images/product/153602GLU%20TKT8_1.jpg" class="card-img-top" alt="LAG GLU GLU TKT8 Tiki Mini Tenor Natural Akustik Gitar">
@@ -69,7 +72,7 @@
             </div>
         </div>
 
-        <div class="row mb-3">
+        <div class="row mb-3"> <!-- üç ürünümü içeren row(ikinci satır) -->
             <div class="col-sm-4">
                 <div class="card" style="width: 22rem; height: 100%;">
                     <img src="https://www.zuhalmuzik.com/images/product/TAMA-LJL48H4-SBO-Club-JAM-Aksaml_93982_1.jpg" class="card-img-top" alt="davul seti">
@@ -105,7 +108,7 @@
             </div>
         </div>
 
-        <div class="row mb-3">
+        <div class="row mb-3"><!-- iki ürünümü içeren row(üçüncü satır) -->
             <div class="col-sm-4">
                 <div class="card" style="width: 22rem; height: 100%;">
                     <img src="https://www.zuhalmuzik.com/images/product/164529VL1-B-4-4_1.png" class="card-img-top" alt="keman">
