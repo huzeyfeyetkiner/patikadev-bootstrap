@@ -52,14 +52,11 @@ input.empty {
 
 .rightpanel {
   border: none;
-  margin-top: 3%;
 }
 
-#sticky-sidebar {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
+#sticky-sidebar {  
+  position: fixed;
+}   
 
 
 
