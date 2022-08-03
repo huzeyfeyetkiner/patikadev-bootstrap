@@ -55,7 +55,24 @@
 }
 
 .text-section {
-    border-bottom:1px solid #1d1d1b;
-    font-size: 22px;
-    margin-left: 5%;
+    font-size: 22px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-h-border {
+    border-bottom: 2px solid #1d1d1b;
+}
+
+.section-border {
+    border-bottom: 1px solid gray ;
+    border-bottom-style: dashed;
+}
+
+.text-lead {
+    font-size: 14px !important;
+}
+
+.section-bg-color {
+    background-color: #ececec;
+    opacity: 97%;
 }
