@@ -111,3 +111,34 @@
     background-color: #4c565b !important;
     color:white;
 }
+
+.kredi-tutar {
+    margin-top: 5%; 
+    height: 6%;
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: left;  
+    padding-top: 1%;
+}
+
+.kredi-tutar span {
+    color: gray;
+    margin-left: 3%;
+    font-weight: bold;    
+}
+
+#kredi-tutar {
+    border: none;
+    background-color: transparent;
+    float: right;
+    text-align:right;
+}
+
+#kredi-tutar::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+#kredi-tutar:focus {
+    outline: none !important;
+}
