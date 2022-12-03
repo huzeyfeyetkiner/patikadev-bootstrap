@@ -352,7 +352,6 @@
 
               <div class="col-sm-4 offset-2">             
                 <input class="slider rounded-pill w-100" style="text-align: right;" type="number" name="" id="" placeholder="36 Ay">
-
               </div>
 
             </div>          
@@ -413,11 +412,70 @@
 
         <!-- EN YAKIN ZİRAAT KISMI -->
         <div class="col-sm-3 section-bg-color">
-            <h6 class="text-section section-h-border">En Yakın Ziraat</h6>
+            <h6 class="text-section section-h-border mb-5">En Yakın Ziraat</h6>
+
+            <form action="" class="text-center" style="margin-top: 20%;">
+              
+              <div class="d-inline-block">
+                <input type="radio" name="lokasyon" id="sube" checked>
+                <label for="sube">ŞUBE</label>
+              </div>
+
+              <div class="d-inline-block">
+                <input type="radio" name="lokasyon" id="atm">
+                <label for="atm">ATM</label>
+              </div>
+              
+              <div class="ara-sube rounded-pill text-left">
+                <input type="text" class="input-sube" placeholder="Şube ve Adres Arama">
+                <i class="fa-solid fa-magnifying-glass" style="margin-left: 40%; opacity: 0.5;"></i>
+              </div>
+              
+
+              <!-- ŞEHİR SEÇİMİ -->
+              <div class="dropdown rounded-pill" style="margin-top: 5%;">
+                <a class="btn d-md-block btn-section " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Şehir Seçiniz<i class="fa-solid fa-caret-down float-end my-1 me-2"></i>
+                </a>
+              
+                <ul class="dropdown-menu dropdown-menu-section">
+                  <input type="search" name="section-dropdown-item-search" id="" class="search-area-section">
+                  <li><a class="dropdown-item" href="#">İstanbul</a></li>
+                  <li><a class="dropdown-item" href="#">İzmir</a></li>
+                  <li><a class="dropdown-item" href="#">Ankara</a></li>
+                </ul>           
+    
+              </div>
+              <!-- İLÇE SEÇİMİ -->
+              <div class="dropdown rounded-pill" style="margin-top: 5%;">
+                <a class="btn d-md-block btn-section " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  İlçe Seçiniz<i class="fa-solid fa-caret-down float-end my-1 me-2"></i>
+                </a>
+              
+                <ul class="dropdown-menu dropdown-menu-section">
+                  <input type="search" name="section-dropdown-item-search" id="" class="search-area-section">
+                  <li><a class="dropdown-item" href="#">Eyüp</a></li>
+                  <li><a class="dropdown-item" href="#">Beşiktaş</a></li>
+                  <li><a class="dropdown-item" href="#">Kadıköy</a></li>
+                </ul>           
+    
+              </div>
+
+
+              <a href="" class="btn btn-ara rounded-pill mt-5">ARA</a>
+
+
+
+            </form>
+
+
+
         </div>
 
     </div>
 
+
+    <!-- FOOTER KISMI / ŞU AN TASLAK -->
     <div class="div footer-bg">
 
       <div class="container">
@@ -479,7 +537,7 @@
           </div>
         </footer>
       </div>
-  </div>
+    </div>
 
 
 
