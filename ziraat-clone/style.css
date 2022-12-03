@@ -44,9 +44,9 @@
 }
 
 .dropdown-item:hover {
-    background-color: white !important;
+    background-color: white;
     color:#1d1d1b !important;
-    border-left: 1px #e10514 !important;
+    border-left: 1px solid #e10514;
 }
 
 .dropdown-menu {
@@ -99,7 +99,7 @@
 
 .dropdown-menu-section .dropdown-item:hover{
     color:black !important;
-    background-color: transparent !important;
+    background-color: transparent !important;    
 }
 
 .search-area-section {
@@ -161,3 +161,28 @@
     border: 1px solid black;
     color: black;
 }
+
+.basvurular-section:hover {
+    border-bottom: 2px solid #1d1d1b;    
+}
+
+span.d-block { /* başvurular kısmındaki yazıları kalınlaştırmak için*/
+    font-weight: bold;
+}
+
+/* 
+BORDER İÇİN TASLAK --> ??? YAPILABİLİR Mİ KONTROL ET
+.border-basvuru {
+    visibility: hidden;
+    width: 50px;
+    height: 3px;
+    background-color: #1d1d1b;
+}
+
+.deneme1:hover {
+    visibility: visible !important;
+}
+
+.border-basvuru:hover {
+    visibility: visible;
+} */
